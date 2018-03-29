@@ -1,0 +1,16 @@
+PODS:
+  - QXMFatherHomeTbaListMoreVC (0.1.0)
+
+DEPENDENCIES:
+  - QXMFatherHomeTbaListMoreVC (from `../`)
+
+EXTERNAL SOURCES:
+  QXMFatherHomeTbaListMoreVC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QXMFatherHomeTbaListMoreVC: 78e5390417f74f1e523460c313837955a9121b07
+
+PODFILE CHECKSUM: 9e3857130f8e76994e9dc1b11ac97822f9692d99
+
+COCOAPODS: 1.5.0.beta.1

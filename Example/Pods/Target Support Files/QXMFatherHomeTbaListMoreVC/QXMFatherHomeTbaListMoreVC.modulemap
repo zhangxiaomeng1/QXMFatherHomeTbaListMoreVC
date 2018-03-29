@@ -1,0 +1,6 @@
+framework module QXMFatherHomeTbaListMoreVC {
+  umbrella header "QXMFatherHomeTbaListMoreVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
