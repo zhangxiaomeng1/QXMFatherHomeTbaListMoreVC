@@ -1,16 +1,29 @@
 PODS:
-  - QXMFatherHomeTbaListMoreVC (1.1.3)
+  - QXMFatherHomeTbaListMoreVC (1.1.4):
+    - SDWebImage (~> 3.7.5)
+    - XMCategorys (~> 1.1.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - XMCategorys (1.1.3)
 
 DEPENDENCIES:
   - QXMFatherHomeTbaListMoreVC (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SDWebImage
+    - XMCategorys
 
 EXTERNAL SOURCES:
   QXMFatherHomeTbaListMoreVC:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QXMFatherHomeTbaListMoreVC: 098c01552fe924af5f794a031b0dacbf14c0c22b
+  QXMFatherHomeTbaListMoreVC: 35233320baf05ebb84e57d3915896f1fd2cea9ce
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  XMCategorys: 8f9848b8067b977fff5c2abe9653ab80767c4670
 
-PODFILE CHECKSUM: fa961f58e427483aa09adc22349cc5c959151940
+PODFILE CHECKSUM: 01c360168a376fa6c8241c11cd4e93887fa11275
 
 COCOAPODS: 1.5.0.beta.1

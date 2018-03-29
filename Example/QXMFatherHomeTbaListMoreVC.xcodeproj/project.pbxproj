@@ -323,10 +323,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-QXMFatherHomeTbaListMoreVC_Example/Pods-QXMFatherHomeTbaListMoreVC_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/QXMFatherHomeTbaListMoreVC/QXMFatherHomeTbaListMoreVC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/XMCategorys/XMCategorys.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QXMFatherHomeTbaListMoreVC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMCategorys.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

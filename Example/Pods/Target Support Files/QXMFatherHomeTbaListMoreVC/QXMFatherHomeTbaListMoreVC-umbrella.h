@@ -13,6 +13,7 @@
 #import "QXMFatherHomeTbaListMoreVC.h"
 #import "QXMFatherHomeItem.h"
 #import "Target_Home.h"
+#import "QXMFatherHomeIndexCollectionCell.h"
 
 FOUNDATION_EXPORT double QXMFatherHomeTbaListMoreVCVersionNumber;
 FOUNDATION_EXPORT const unsigned char QXMFatherHomeTbaListMoreVCVersionString[];

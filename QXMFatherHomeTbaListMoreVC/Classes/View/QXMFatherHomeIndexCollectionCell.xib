@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QXMFatherHomeIndexCollectionCell" id="gTV-IL-0wX" customClass="QXMFatherHomeIndexCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="171"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="23v-3u-N5s">
+                        <rect key="frame" x="66.5" y="18" width="29" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="VyX-gn-Yc1"/>
+                            <constraint firstAttribute="width" constant="29" id="t7L-xN-F03"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打开客户端" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9f9-L7-LRm">
+                        <rect key="frame" x="48" y="56" width="66.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.14509803921568626" green="0.17254901960784313" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="9f9-L7-LRm" firstAttribute="top" secondItem="23v-3u-N5s" secondAttribute="bottom" constant="10" id="Ddz-Mw-9Dl"/>
+                <constraint firstItem="23v-3u-N5s" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Mcu-cN-yTS"/>
+                <constraint firstItem="9f9-L7-LRm" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="RoG-P8-ik2"/>
+                <constraint firstItem="23v-3u-N5s" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="18" id="qaG-iv-XR6"/>
+            </constraints>
+            <size key="customSize" width="162" height="171"/>
+            <connections>
+                <outlet property="tabImg" destination="23v-3u-N5s" id="ovj-Iu-ppv"/>
+                <outlet property="tabImgHeight" destination="t7L-xN-F03" id="IDw-Cr-u4F"/>
+                <outlet property="tabImgTop" destination="qaG-iv-XR6" id="o95-FT-XVy"/>
+                <outlet property="tabImgWidth" destination="VyX-gn-Yc1" id="hlc-o1-yqm"/>
+                <outlet property="tabTitle" destination="9f9-L7-LRm" id="Scu-kA-kMy"/>
+                <outlet property="tabTitleTop" destination="Ddz-Mw-9Dl" id="G4K-Ho-LEU"/>
+            </connections>
+            <point key="canvasLocation" x="90" y="114.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
