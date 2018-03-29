@@ -1,10 +1,16 @@
 use_frameworks!
 
+#source 'https://github.com/CocoaPods/Specs.git'
+
+#source 'https://git.coding.net/n34/XMSpec.git'
+
 target 'QXMFatherHomeTbaListMoreVC_Example' do
   pod 'QXMFatherHomeTbaListMoreVC', :path => '../'
+  
 
   target 'QXMFatherHomeTbaListMoreVC_Tests' do
     inherit! :search_paths
+
 
     
   end

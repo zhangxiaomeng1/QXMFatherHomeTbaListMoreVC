@@ -8,6 +8,8 @@
 
 #import "XMViewController.h"
 
+#import "QXMFatherHomeTbaListMoreVC.h"
+
 @interface XMViewController ()
 
 @end

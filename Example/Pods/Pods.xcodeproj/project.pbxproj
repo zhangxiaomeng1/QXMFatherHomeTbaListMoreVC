@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E5564F77AF927895B5CC0DD84B00FCE /* QXMFatherHomeTbaListMoreVC.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF51C2BE0D083DF045F9852D90E6F09 /* QXMFatherHomeTbaListMoreVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1022CA28252B4761ED33FE84C8F8BEB1 /* Target_Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2161EA9537DA734A158D3CE9DC2B69 /* Target_Home.m */; };
 		1309646AA54ED1F64EAA31309092A583 /* Pods-QXMFatherHomeTbaListMoreVC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 125985BDA33DB370052F52C3A21CF7E2 /* Pods-QXMFatherHomeTbaListMoreVC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3188954FAF616C42FD195E42377F2651 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA4E9A7CD84013673389A91754C20D /* Pods-QXMFatherHomeTbaListMoreVC_Tests-dummy.m */; };
 		38680E7927A8675B004599728FF9FE4E /* Pods-QXMFatherHomeTbaListMoreVC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A455828256A494C90EBC6A43A4516 /* Pods-QXMFatherHomeTbaListMoreVC_Example-dummy.m */; };
-		3F872EEAAF020990C9CE59F32F28A9C6 /* QXMFatherHomeTbaListMoreVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C629E31D837DA401772B85CB1C9D5CC8 /* QXMFatherHomeTbaListMoreVC-dummy.m */; };
+		5132E6AF2F590E01C32B716290C97249 /* QXMFatherHomeTbaListMoreVC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC1C550186D3F252DE42615D86347A39 /* QXMFatherHomeTbaListMoreVC-dummy.m */; };
+		64B5C60B23C6AC74C79C80B63E525B2E /* QXMFatherHomeTbaListMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4B4F449D53C4956785E4E7AC2626FD /* QXMFatherHomeTbaListMoreVC.m */; };
 		6511E25671EF0903B346173880C3A0E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		88FE5083AF3730F1B40CD6021BB8447B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8B0B3921AFA2758827B2D06AE6017548 /* QXMFatherHomeTbaListMoreVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 809CD275882AF8F380D6506A2B73007D /* QXMFatherHomeTbaListMoreVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6ED60B16D8895BA8CEAA1C4E7245ADD /* QXMFatherHomeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 60271104769FB551FD5A1DC16DD080EC /* QXMFatherHomeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC72739E6FF862A0860A846C73047BD8 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA78EF0B39C02B5802EFCAAEBDB06FD /* Pods-QXMFatherHomeTbaListMoreVC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9A316771B5C1649506CA9D3A136B96C /* QXMFatherHomeTbaListMoreVC.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5C325150F3BB665F9EB4878B1A7108 /* QXMFatherHomeTbaListMoreVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA363A8DBE30111B19E2C4AEDB4346A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FE14A5DE08591AC64F33426B5F88543B /* QXMFatherHomeTbaListMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F9D1CEAE99DEACF6C9DB44040AC0F9 /* QXMFatherHomeTbaListMoreVC.m */; };
+		E20132F9EA07E0C8B288A20F15B3FBC6 /* Target_Home.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BA4A67E37E58EEBF869B1A0A22E395 /* Target_Home.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA1AE313687B5C78BE20FD6B9E25D419 /* QXMFatherHomeTbaListMoreVC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EB6FDE8CB11D093B6D8BDB8AAB1F10 /* QXMFatherHomeTbaListMoreVC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC09984451D6DB4FDDC48E6C73596E4D /* QXMFatherHomeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B20F570A38C565D53AB0A76B6F8AC35 /* QXMFatherHomeItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +40,32 @@
 		031497423C831489B209ED58A4DC0C66 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		05730E67C6C49EBCB3A6FFA01A2CFAE8 /* Pods-QXMFatherHomeTbaListMoreVC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		125985BDA33DB370052F52C3A21CF7E2 /* Pods-QXMFatherHomeTbaListMoreVC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXMFatherHomeTbaListMoreVC_Example-umbrella.h"; sourceTree = "<group>"; };
+		1AF688668894E22081A1C835BE849715 /* QXMFatherHomeTbaListMoreVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMFatherHomeTbaListMoreVC-prefix.pch"; sourceTree = "<group>"; };
 		1CF5181977C9C19402C23E7CE8EF4E6A /* Pods-QXMFatherHomeTbaListMoreVC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMFatherHomeTbaListMoreVC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1D5F0EC833555ADC60F8D33ECA7B8E9B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1DA7D93F4A602060002AF0B44EF93AC0 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests-resources.sh"; sourceTree = "<group>"; };
 		1F4928A559CEF6EB38904013C1E790E8 /* Pods-QXMFatherHomeTbaListMoreVC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXMFatherHomeTbaListMoreVC_Example-frameworks.sh"; sourceTree = "<group>"; };
 		20313E15CF8AB98EBA19B67805312702 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		238382631C22B3912849B8363C8CBCBE /* QXMFatherHomeTbaListMoreVC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMFatherHomeTbaListMoreVC-prefix.pch"; sourceTree = "<group>"; };
+		3C2161EA9537DA734A158D3CE9DC2B69 /* Target_Home.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_Home.m; sourceTree = "<group>"; };
+		4AC87D1717A908380B0355323F075CD0 /* QXMFatherHomeTbaListMoreVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QXMFatherHomeTbaListMoreVC.podspec; sourceTree = "<group>"; };
 		5660D33A2A12C4155853E437D4A14DB2 /* Pods-QXMFatherHomeTbaListMoreVC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QXMFatherHomeTbaListMoreVC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5EB6D0853D8096F000EBBB700BF6BF0C /* QXMFatherHomeTbaListMoreVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXMFatherHomeTbaListMoreVC.modulemap; sourceTree = "<group>"; };
+		5F4B4F449D53C4956785E4E7AC2626FD /* QXMFatherHomeTbaListMoreVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXMFatherHomeTbaListMoreVC.m; sourceTree = "<group>"; };
+		60271104769FB551FD5A1DC16DD080EC /* QXMFatherHomeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXMFatherHomeItem.h; sourceTree = "<group>"; };
 		612F829DD2B2B8ABE432B33DFBFE5126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61EB6FDE8CB11D093B6D8BDB8AAB1F10 /* QXMFatherHomeTbaListMoreVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMFatherHomeTbaListMoreVC-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B08C3289EFC74437467840BFF68D414 /* QXMFatherHomeTbaListMoreVC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QXMFatherHomeTbaListMoreVC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		809CD275882AF8F380D6506A2B73007D /* QXMFatherHomeTbaListMoreVC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QXMFatherHomeTbaListMoreVC-umbrella.h"; sourceTree = "<group>"; };
+		6C1849BE96AFF7F59B19496188511431 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		753A5519EE5D487E3B6B599C633B0715 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8B20F570A38C565D53AB0A76B6F8AC35 /* QXMFatherHomeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QXMFatherHomeItem.m; sourceTree = "<group>"; };
 		935A73177E58DF045BC7B4BF4A54D548 /* Pods-QXMFatherHomeTbaListMoreVC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests.modulemap"; sourceTree = "<group>"; };
 		93760E931FC0DDEC016AB8629A8BA2B0 /* Pods_QXMFatherHomeTbaListMoreVC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXMFatherHomeTbaListMoreVC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BA78EF0B39C02B5802EFCAAEBDB06FD /* Pods-QXMFatherHomeTbaListMoreVC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests-umbrella.h"; sourceTree = "<group>"; };
-		A9F0F16CF9E61066C512821BA9D41627 /* QXMFatherHomeTbaListMoreVC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QXMFatherHomeTbaListMoreVC.modulemap; sourceTree = "<group>"; };
-		B1F9D1CEAE99DEACF6C9DB44040AC0F9 /* QXMFatherHomeTbaListMoreVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QXMFatherHomeTbaListMoreVC.m; path = QXMFatherHomeTbaListMoreVC/Classes/QXMFatherHomeTbaListMoreVC.m; sourceTree = "<group>"; };
-		B8CA5ABE0C5B17F3AD096D715D4AF513 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A7BA4A67E37E58EEBF869B1A0A22E395 /* Target_Home.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_Home.h; sourceTree = "<group>"; };
+		BA5C325150F3BB665F9EB4878B1A7108 /* QXMFatherHomeTbaListMoreVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QXMFatherHomeTbaListMoreVC.h; sourceTree = "<group>"; };
+		BC1C550186D3F252DE42615D86347A39 /* QXMFatherHomeTbaListMoreVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXMFatherHomeTbaListMoreVC-dummy.m"; sourceTree = "<group>"; };
 		BC3A455828256A494C90EBC6A43A4516 /* Pods-QXMFatherHomeTbaListMoreVC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QXMFatherHomeTbaListMoreVC_Example-dummy.m"; sourceTree = "<group>"; };
-		BDCD920B17C6620B33ECA78BC02B505B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF7D88457320C2916101C76C31B442AB /* QXMFatherHomeTbaListMoreVC.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QXMFatherHomeTbaListMoreVC.podspec; sourceTree = "<group>"; };
-		C629E31D837DA401772B85CB1C9D5CC8 /* QXMFatherHomeTbaListMoreVC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QXMFatherHomeTbaListMoreVC-dummy.m"; sourceTree = "<group>"; };
 		C842D6BEEB2EA89DEBF4EFFC0DFB8902 /* Pods_QXMFatherHomeTbaListMoreVC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QXMFatherHomeTbaListMoreVC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B2BF58AD5E9455DEE9A2A22604986D /* Pods-QXMFatherHomeTbaListMoreVC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QXMFatherHomeTbaListMoreVC_Example.modulemap"; sourceTree = "<group>"; };
 		E0C00F6E17BA4C58D95FA28B715A6FC0 /* Pods-QXMFatherHomeTbaListMoreVC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QXMFatherHomeTbaListMoreVC_Example-resources.sh"; sourceTree = "<group>"; };
@@ -65,8 +73,8 @@
 		E96F15610FB35D7213258B15F9567A89 /* Pods-QXMFatherHomeTbaListMoreVC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED449B2A9BEC4CB040BA8C64C42E12B3 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QXMFatherHomeTbaListMoreVC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EEF4CBD7FC57134693659AD9C8094B93 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBF51C2BE0D083DF045F9852D90E6F09 /* QXMFatherHomeTbaListMoreVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QXMFatherHomeTbaListMoreVC.h; path = QXMFatherHomeTbaListMoreVC/Classes/QXMFatherHomeTbaListMoreVC.h; sourceTree = "<group>"; };
-		FF4B128B9DC23466FE4104F94C4FDB93 /* QXMFatherHomeTbaListMoreVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXMFatherHomeTbaListMoreVC.xcconfig; sourceTree = "<group>"; };
+		F0109456981E5CBF8673B657E7EFC1EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FD751F52E0F655C2D3EA9C273C807AAF /* QXMFatherHomeTbaListMoreVC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QXMFatherHomeTbaListMoreVC.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,38 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C0F71F5502B46357CE90C1B655411A3 /* Support Files */ = {
+		0C4DA0ED8E657AAF6C8F1FE5DAAE46FE /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BDCD920B17C6620B33ECA78BC02B505B /* Info.plist */,
-				A9F0F16CF9E61066C512821BA9D41627 /* QXMFatherHomeTbaListMoreVC.modulemap */,
-				FF4B128B9DC23466FE4104F94C4FDB93 /* QXMFatherHomeTbaListMoreVC.xcconfig */,
-				C629E31D837DA401772B85CB1C9D5CC8 /* QXMFatherHomeTbaListMoreVC-dummy.m */,
-				238382631C22B3912849B8363C8CBCBE /* QXMFatherHomeTbaListMoreVC-prefix.pch */,
-				809CD275882AF8F380D6506A2B73007D /* QXMFatherHomeTbaListMoreVC-umbrella.h */,
+				60271104769FB551FD5A1DC16DD080EC /* QXMFatherHomeItem.h */,
+				8B20F570A38C565D53AB0A76B6F8AC35 /* QXMFatherHomeItem.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QXMFatherHomeTbaListMoreVC";
+			name = Model;
+			path = QXMFatherHomeTbaListMoreVC/Classes/Model;
 			sourceTree = "<group>";
 		};
-		439DA93D61EC319C9F398ADE11B946F4 /* QXMFatherHomeTbaListMoreVC */ = {
+		38D6A8C20CF27087EA0E306D0AC51438 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FBF51C2BE0D083DF045F9852D90E6F09 /* QXMFatherHomeTbaListMoreVC.h */,
-				B1F9D1CEAE99DEACF6C9DB44040AC0F9 /* QXMFatherHomeTbaListMoreVC.m */,
-				461FDC4711D29B9682E61DCBD608AE90 /* Pod */,
-				3C0F71F5502B46357CE90C1B655411A3 /* Support Files */,
-			);
-			name = QXMFatherHomeTbaListMoreVC;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		461FDC4711D29B9682E61DCBD608AE90 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B8CA5ABE0C5B17F3AD096D715D4AF513 /* LICENSE */,
-				BF7D88457320C2916101C76C31B442AB /* QXMFatherHomeTbaListMoreVC.podspec */,
-				1D5F0EC833555ADC60F8D33ECA7B8E9B /* README.md */,
+				753A5519EE5D487E3B6B599C633B0715 /* LICENSE */,
+				4AC87D1717A908380B0355323F075CD0 /* QXMFatherHomeTbaListMoreVC.podspec */,
+				F0109456981E5CBF8673B657E7EFC1EB /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -151,11 +143,21 @@
 			path = "Target Support Files/Pods-QXMFatherHomeTbaListMoreVC_Tests";
 			sourceTree = "<group>";
 		};
+		785DCAFA95744C7DD358A8096FE33446 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C325150F3BB665F9EB4878B1A7108 /* QXMFatherHomeTbaListMoreVC.h */,
+				5F4B4F449D53C4956785E4E7AC2626FD /* QXMFatherHomeTbaListMoreVC.m */,
+			);
+			name = Controller;
+			path = QXMFatherHomeTbaListMoreVC/Classes/Controller;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F37AAFDF26FC8029643095463F12EF92 /* Development Pods */,
+				F6B9571D6E629F631AA56DE8B9D7B5F4 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				DCCF9D4FDBC816A3D97226102B1D28D9 /* Products */,
 				955BFBDD31741A043ED96B4C606A9AD1 /* Targets Support Files */,
@@ -169,6 +171,16 @@
 				5FB6A07C1B1B0B0D36F867C8F5F8A8C7 /* Pods-QXMFatherHomeTbaListMoreVC_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A33E9B2A0D6AE0068E9D93AED323B568 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				A7BA4A67E37E58EEBF869B1A0A22E395 /* Target_Home.h */,
+				3C2161EA9537DA734A158D3CE9DC2B69 /* Target_Home.m */,
+			);
+			name = Targets;
+			path = QXMFatherHomeTbaListMoreVC/Classes/Targets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -215,10 +227,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F37AAFDF26FC8029643095463F12EF92 /* Development Pods */ = {
+		ED2A7997E1DA4E5FFCBDCC52CAD03814 /* QXMFatherHomeTbaListMoreVC */ = {
 			isa = PBXGroup;
 			children = (
-				439DA93D61EC319C9F398ADE11B946F4 /* QXMFatherHomeTbaListMoreVC */,
+				785DCAFA95744C7DD358A8096FE33446 /* Controller */,
+				0C4DA0ED8E657AAF6C8F1FE5DAAE46FE /* Model */,
+				38D6A8C20CF27087EA0E306D0AC51438 /* Pod */,
+				EE747090929093ACE39E40F2045B3DB7 /* Support Files */,
+				A33E9B2A0D6AE0068E9D93AED323B568 /* Targets */,
+			);
+			name = QXMFatherHomeTbaListMoreVC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EE747090929093ACE39E40F2045B3DB7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C1849BE96AFF7F59B19496188511431 /* Info.plist */,
+				5EB6D0853D8096F000EBBB700BF6BF0C /* QXMFatherHomeTbaListMoreVC.modulemap */,
+				FD751F52E0F655C2D3EA9C273C807AAF /* QXMFatherHomeTbaListMoreVC.xcconfig */,
+				BC1C550186D3F252DE42615D86347A39 /* QXMFatherHomeTbaListMoreVC-dummy.m */,
+				1AF688668894E22081A1C835BE849715 /* QXMFatherHomeTbaListMoreVC-prefix.pch */,
+				61EB6FDE8CB11D093B6D8BDB8AAB1F10 /* QXMFatherHomeTbaListMoreVC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QXMFatherHomeTbaListMoreVC";
+			sourceTree = "<group>";
+		};
+		F6B9571D6E629F631AA56DE8B9D7B5F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED2A7997E1DA4E5FFCBDCC52CAD03814 /* QXMFatherHomeTbaListMoreVC */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -226,20 +265,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1C8F2E6AB3194378CC39AAD3B3B52910 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6ED60B16D8895BA8CEAA1C4E7245ADD /* QXMFatherHomeItem.h in Headers */,
+				EA1AE313687B5C78BE20FD6B9E25D419 /* QXMFatherHomeTbaListMoreVC-umbrella.h in Headers */,
+				D9A316771B5C1649506CA9D3A136B96C /* QXMFatherHomeTbaListMoreVC.h in Headers */,
+				E20132F9EA07E0C8B288A20F15B3FBC6 /* Target_Home.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A2D11819B94CF43EE51DA4BE0B23762 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CC72739E6FF862A0860A846C73047BD8 /* Pods-QXMFatherHomeTbaListMoreVC_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B86A904DB64DBE32B0ABF3C5001C65BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B0B3921AFA2758827B2D06AE6017548 /* QXMFatherHomeTbaListMoreVC-umbrella.h in Headers */,
-				0E5564F77AF927895B5CC0DD84B00FCE /* QXMFatherHomeTbaListMoreVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +317,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39FC10F8FC94E325DEF092202A80C665 /* Build configuration list for PBXNativeTarget "QXMFatherHomeTbaListMoreVC" */;
 			buildPhases = (
-				091E3294156487F2AB0345DE2AB51537 /* Sources */,
+				87E28EE99021465E6513D5B5F6C7F9C0 /* Sources */,
 				0412B183FDC4444DC8E7C9AA6469E810 /* Frameworks */,
-				B86A904DB64DBE32B0ABF3C5001C65BD /* Headers */,
+				1C8F2E6AB3194378CC39AAD3B3B52910 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -335,15 +376,6 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		091E3294156487F2AB0345DE2AB51537 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F872EEAAF020990C9CE59F32F28A9C6 /* QXMFatherHomeTbaListMoreVC-dummy.m in Sources */,
-				FE14A5DE08591AC64F33426B5F88543B /* QXMFatherHomeTbaListMoreVC.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		10451205361D4D07D3756DE9E1256094 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,6 +389,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				38680E7927A8675B004599728FF9FE4E /* Pods-QXMFatherHomeTbaListMoreVC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E28EE99021465E6513D5B5F6C7F9C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC09984451D6DB4FDDC48E6C73596E4D /* QXMFatherHomeItem.m in Sources */,
+				5132E6AF2F590E01C32B716290C97249 /* QXMFatherHomeTbaListMoreVC-dummy.m in Sources */,
+				64B5C60B23C6AC74C79C80B63E525B2E /* QXMFatherHomeTbaListMoreVC.m in Sources */,
+				1022CA28252B4761ED33FE84C8F8BEB1 /* Target_Home.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +417,7 @@
 /* Begin XCBuildConfiguration section */
 		121BB81C64D5CDA79B4E5EEBBA5F3652 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4B128B9DC23466FE4104F94C4FDB93 /* QXMFatherHomeTbaListMoreVC.xcconfig */;
+			baseConfigurationReference = FD751F52E0F655C2D3EA9C273C807AAF /* QXMFatherHomeTbaListMoreVC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -438,7 +481,7 @@
 		};
 		7A31701EC2682608A77928283CEB0A69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4B128B9DC23466FE4104F94C4FDB93 /* QXMFatherHomeTbaListMoreVC.xcconfig */;
+			baseConfigurationReference = FD751F52E0F655C2D3EA9C273C807AAF /* QXMFatherHomeTbaListMoreVC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
